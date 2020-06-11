@@ -1,0 +1,13 @@
+C:\Users\Vishal-PC\source\repos\BusArrange\BusArrange\bin\Debug\netcoreapp3.1\BusArrange.exe
+C:\Users\Vishal-PC\source\repos\BusArrange\BusArrange\bin\Debug\netcoreapp3.1\BusArrange.deps.json
+C:\Users\Vishal-PC\source\repos\BusArrange\BusArrange\bin\Debug\netcoreapp3.1\BusArrange.runtimeconfig.json
+C:\Users\Vishal-PC\source\repos\BusArrange\BusArrange\bin\Debug\netcoreapp3.1\BusArrange.runtimeconfig.dev.json
+C:\Users\Vishal-PC\source\repos\BusArrange\BusArrange\bin\Debug\netcoreapp3.1\BusArrange.dll
+C:\Users\Vishal-PC\source\repos\BusArrange\BusArrange\bin\Debug\netcoreapp3.1\BusArrange.pdb
+C:\Users\Vishal-PC\source\repos\BusArrange\BusArrange\obj\Debug\netcoreapp3.1\BusArrange.csprojAssemblyReference.cache
+C:\Users\Vishal-PC\source\repos\BusArrange\BusArrange\obj\Debug\netcoreapp3.1\BusArrange.csproj.CoreCompileInputs.cache
+C:\Users\Vishal-PC\source\repos\BusArrange\BusArrange\obj\Debug\netcoreapp3.1\BusArrange.AssemblyInfoInputs.cache
+C:\Users\Vishal-PC\source\repos\BusArrange\BusArrange\obj\Debug\netcoreapp3.1\BusArrange.AssemblyInfo.cs
+C:\Users\Vishal-PC\source\repos\BusArrange\BusArrange\obj\Debug\netcoreapp3.1\BusArrange.dll
+C:\Users\Vishal-PC\source\repos\BusArrange\BusArrange\obj\Debug\netcoreapp3.1\BusArrange.pdb
+C:\Users\Vishal-PC\source\repos\BusArrange\BusArrange\obj\Debug\netcoreapp3.1\BusArrange.genruntimeconfig.cache
