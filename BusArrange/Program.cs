@@ -19,7 +19,29 @@ namespace BusArrange
             StringBuilder ids = new StringBuilder();
             do{
                 Console.WriteLine("Seats Available :  " + seatscount);
+               
+                for (int p = 0; p < 10; p++)
+                {
+                    for (int k = 0; k < 4; k++)
+                    {
+                        if (s[p, k].occupy)
+                        {
+                            Console.ForegroundColor = ConsoleColor.Red;
+                            Console.Write(p+""+k +"  ");
+                        }
+                        else
+                        {
+                            Console.ForegroundColor = ConsoleColor.White;
+                            Console.Write(p + "" + k + "  ");
+                        }
+                        
+                    }
+                    Console.WriteLine();
+                }
+  
+                Console.ForegroundColor = ConsoleColor.White;
                 Console.WriteLine("Enter Number of seats to booked : Enter number 1 to " + seatscount + " : ");
+                
                 try
                 {
                     noofseats = int.Parse(Console.ReadLine());
@@ -28,12 +50,31 @@ namespace BusArrange
                         Console.WriteLine("Cannot be more than 40");
                        
                     }
+                    else if (noofseats > seatscount)
+                    {
+                        Console.WriteLine("Seats limit exceeds");
+
+                    }
                     else if (noofseats < 0)
                     {
                         Console.WriteLine("Cannot be less than 0");
                     }
                     else 
                     {
+                        Console.WriteLine("Enter Seat number : ");
+                        try
+                        {
+                            int seatnumbner = int.Parse(Console.ReadLine());
+
+                            j = seatnumbner % 10;
+                            seatnumbner = seatnumbner / 10;
+                            i = seatnumbner % 10;
+
+                        }
+                        catch{
+                            Console.WriteLine("Incorrect seat number");
+                            goto again;
+                        }
 
                         for (; i < 10; i++)
                         {
@@ -47,8 +88,10 @@ namespace BusArrange
                                     seatscount--;
                                     
                                     if (noofseats == 0) { goto done; }
+                                    if (i == 9 && j == 3 && noofseats != 0) { i = 0; j = 0; }
                                 }
                             }
+                            
                         }
                    
                     }
@@ -66,6 +109,7 @@ namespace BusArrange
                     if (c != 'y' && c != 'n') throw new Exception();
                 }
                 catch { Console.WriteLine("Wrong option try again"); goto again; }
+                j = 0;i = 0;
             }
             while (c == 'y') ;
             
